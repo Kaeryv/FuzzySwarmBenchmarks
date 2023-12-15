@@ -4,12 +4,15 @@
 
 | Algorithm   | File                   |Notes   |
 |-------------|------------------------|--------|
-| APSO-VI     | scripts/ext-apso-vi.py ||
-| PSO-RIW     | scripts/ext-pso-riw.py ||
-| CMA-ES      | scripts/ext-cma.py     ||
-| GA          | scripts/ext-ga-de.py   ||
-| L-SHADE     | scripts/ext-shade.py   | We used our own implementation instead of PyADE because it wasn't correct (bad performance)|
-| FPSO        | scripts/fpso.py        ||
+| APSO-VI     | scripts/ext-apso-vi.py | Own implementation |
+| PSO-RIW     | scripts/ext-pso-riw.py | Own implementation |
+| CMA-ES      | scripts/ext-cma.py     | Using pycma [pycma](https://github.com/CMA-ES/pycma)|
+| GA          | scripts/ext-ga-de.py   | Using geneticalgorithm |
+| L-SHADE     | scripts/ext-shade.py   | Own implementation instead of [PyADE](https://github.com/xKuZz/pyade) because it wasn't correct.|
+| FPSO        | scripts/fpso.py        | Using [Hybris](https://github.com/Kaeryv/Hybris) |
+
+The PyADE implementation of L-SHADE had very poor performance which was strange.
+We translated the matlab code from the original author for this benchmark.
 
 ## BBOB Benchmark
 
