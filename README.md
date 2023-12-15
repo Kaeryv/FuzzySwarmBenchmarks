@@ -16,7 +16,10 @@ We translated the matlab code from the original author for this benchmark.
 
 ## BBOB Benchmark
 
-- scripts/bbob.py
+![](bbob_noiseless/pprldmany_40D_noiselessall.svg)
+
+To launch a COCO benchmark on BBOB, use `scripts/bbob.py`.
+The figures of a previous run are found in `./bbob_noiseless/`.
 
 ## Set of controllers
 
